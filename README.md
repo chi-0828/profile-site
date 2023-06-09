@@ -1,4 +1,4 @@
-# ternimal-web
+# profile-site
 A macos ternimal style personal profile website
 
 ## Demo website link
