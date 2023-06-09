@@ -2,7 +2,7 @@
 A macos ternimal style personal profile website
 
 ## Demo website link
-[chi-0828.github.io](https://chi-0828.github.io/profile-site/pub.html)
+[chi-0828.github.io](https://chi-0828.github.io/profile-site/)
 
 ## Demo screenshot
 #### This is the macos ternimal style website
