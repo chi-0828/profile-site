@@ -1,5 +1,5 @@
 # profile-site
-A macos ternimal style personal profile website
+A macos terminal style personal profile website
 
 ## Demo website link
 [chi-0828.github.io](https://chi-0828.github.io/profile-site/)
