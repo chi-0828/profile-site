@@ -1,13 +1,13 @@
 # profile-site
-A macos ternimal style personal profile website
+A macos terminal style personal profile website
 
 ## Demo website link
-[chi-0828.github.io](https://chi-0828.github.io/profile-site/pub.html)
+[chi-0828.github.io](https://chi-0828.github.io/profile-site/)
 
 ## Demo screenshot
-#### This is the macos ternimal style website
+#### This is the macos terminal style website
 ![image](img/demo.png)
-#### This is the real macos ternimal (iTerm)
+#### This is the real macos terminal (iTerm)
 ![image](img/terminal.png)
 
 ## Usage
