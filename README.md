@@ -1,5 +1,5 @@
 # profile-site
-> profile-site is a template of macos terminal style personal profile website
+profile-site is a template of macos terminal style personal profile website
 - star this project if you enjoy this template
 
 ## Demo website link
@@ -9,6 +9,7 @@
 
 ## Demo screenshot
 #### Some demo images
+ascii art can be generated on online tool, e.g., [patorjk](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 ![image](img/demo.png)
 ![image](img/demo2.png)
 #### This is the real macos terminal (iTerm)
