@@ -59,12 +59,19 @@ body {
   flex-direction: column;
   width:100%;
   max-width:1150px;
-  height:710px;
+  height: 1060px; /* for large screen */
   overflow: hidden;
   border-radius: 6px;
   border: 1px solid rgb(12, 12, 12);
   margin:20px;
   cursor: text;
+}
+
+/* for normal screen */
+@media print, screen and (max-width: 2000px) {
+  .container{
+    height: 710px;
+  }
 }
 
 .menu {
@@ -123,12 +130,13 @@ div.title {
 	font-size: 13px;
 	padding: 3.5px;
 	width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-	text-align: center; /* If you want the text to be centered */
+	text-align: center;
 	background-color: #c7c7c7;
 	font-weight: 100;
 	border: #9c9b9b;
 	border-style: solid;
 	border-width: thin;
+  border-bottom-width: medium;
 }
 
 .nav a .left-command {
@@ -507,3 +515,4 @@ div.output a, i {
     flex-direction: row;
   }
 }
+
