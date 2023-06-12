@@ -1,12 +1,16 @@
 # profile-site
-A macos terminal style personal profile website
+> profile-site is a template of macos terminal style personal profile website
+- star this project if you enjoy this template
 
 ## Demo website link
-[chi-0828.github.io](https://chi-0828.github.io/profile-site/)
+[Demo](https://chi-0828.github.io/profile-site/)
+## My personal website link
+[Real usage](https://lcchen.me)
 
 ## Demo screenshot
-#### This is the macos terminal style website
+#### Some demo images
 ![image](img/demo.png)
+![image](img/demo2.png)
 #### This is the real macos terminal (iTerm)
 ![image](img/terminal.png)
 
@@ -19,4 +23,5 @@ cd profile-site
 ```
 
 ## TODO
-Add the animation of print text
+The project is under-going
+- Add the animation of print text
