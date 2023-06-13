@@ -1,3 +1,5 @@
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/chi-0828/profile-site" data-icon="octicon-star" aria-label="Star chi-0828/profile-site on GitHub">Star</a>
 # profile-site
 profile-site is a template of Macos terminal style personal profile website
 - star this project if you enjoy this template
