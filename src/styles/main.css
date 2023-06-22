@@ -1,0 +1,518 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	
+	background-color: #555;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgba(209, 209, 209, 0.5);
+}
+
+.bg-red { background-color:#F5544D; }
+
+.bg-yellow { background-color:#FABD2F; }
+
+.bg-green { background-color:#47D043; }
+
+.white { color:rgb(238, 238, 238); }
+
+.blue { color:#9CEAF3; }
+
+a {
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: 'Fira Code', monospace;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.container {
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  max-width:1150px;
+  height: 1060px; /* for large screen */
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid rgb(12, 12, 12);
+  margin:20px;
+  cursor: text;
+}
+
+/* for normal screen */
+@media print, screen and (max-width: 2000px) {
+  .container{
+    height: 710px;
+  }
+}
+
+.menu {
+  display:flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  width: 100%;
+  height: 33px;
+  background-color: #e0e0e0;
+  padding: 0 8px;
+  cursor:default;
+}
+
+.menu .button {
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  margin-right:8px;
+  cursor:pointer;
+}
+
+div.title {
+  flex:1;
+  text-align:center;
+}
+
+.menu h1 {
+	font-weight: bold;
+	font-size:14px;
+	color: black;
+}
+
+.buttons-flex {
+  position: absolute;
+  display:flex;
+  flex-direction: row;
+}
+
+.buttons-flex2 {
+	font-weight: bold;
+	font-size:16px;
+	color: black;
+}
+
+/* Navigation links */
+.nav {
+	margin-bottom: -2px;
+}
+
+.nav a {
+	/* display: inline-block; */
+	float: left;
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 3.5px;
+	width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	text-align: center;
+	background-color: #c7c7c7;
+	font-weight: 100;
+	border: #9c9b9b;
+	border-style: solid;
+	border-width: thin;
+  border-bottom-width: medium;
+}
+
+.nav a .left-command {
+	display: inline-flex;
+	float:  right;
+}
+  
+/* Add a background color on mouse-over */
+.nav a:hover {
+	background-color: #bdbdbd;
+}
+  
+/* Style the current/active link */
+.nav a.active {
+	background-color: #e0e0e0;
+	border: #e0e0e0;
+	border-style: solid;
+}
+
+.nav a span {
+	text-align: right;
+}
+  
+#app {
+  /* display:flex; */
+  /* flex-direction: column; */
+  background-color:#15151a;
+  width:100%;
+  height:100%;
+  padding:8px;
+  overflow: auto;
+}
+
+p {
+  font-size:16px;
+  color:rgb(238, 238, 238);
+  padding:8px 0;
+}
+
+h2 {
+  font-size:13px;
+  color:rgb(223, 235, 166);
+  padding: 20px;
+}
+
+span.code {
+  color:#66C2CD;
+  margin-left:8px;
+}
+
+div.text {
+  color:white;
+}
+
+div.bottom-8 {
+  margin-bottom: 8px;
+}
+
+.ico {
+	background-color: #c7c7c7;
+	margin-right: -10px;
+	padding-top: 1.7px;
+	padding-left: 8px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	color: #15151a;
+  }
+
+#code {
+	color: #f4feaa;
+}
+
+.intro, .edu, .contact, .pub-list, .exp{
+	padding-left: 80px;
+	padding-bottom: 40px;
+}
+
+
+.intro span{
+	display: inline-block;
+    vertical-align: top;     /* Vertically align the inline-block elements */
+    height:100%;
+    line-height: 100%;
+    width: 20%;           /* Just for Demo */
+	padding: 10px;
+}
+
+.intro span a{
+	color: #f4e4ba;
+}
+
+.intro span+span{
+	display: inline-block;
+    vertical-align: top;     /* Vertically align the inline-block elements */
+	padding-top: 30px;
+    height:100%;
+    line-height: 100%;
+    width: 60%;           /* Just for Demo */
+}
+
+.intro p i{
+	float: left;
+	padding: 10px; 
+	font-size: 28px; 
+}
+
+.intro img{
+	width: 100%;
+}
+
+.intro .text{
+	color: white;
+	/* width: 60%; */
+	margin-top: -20px;
+}
+
+.edu span {
+	display: inline-block;
+    vertical-align: top;     
+    height:100%;
+    line-height: 100%;
+    width: 75px;          
+	padding: 10px;
+}
+
+.exp span {
+	display: inline-block;   
+    height:100%;
+    line-height: 100%;
+    width: 105px;          
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.edu span .school, .exp span .school{
+	color: #f4e4ba;
+}
+.edu span .dep, .exp span .dep{
+	font-size: 14px;
+	color: #fcfcfc;
+}
+.edu span .time, .exp span .time{
+	font-size: 13px;
+	color: #b8b8b8;
+}
+
+.edu span+span, .exp span+span{
+	display: inline-block;
+    vertical-align: top;     /* Vertically align the inline-block elements */
+	padding-top: 20px;
+    height:100%;
+    line-height: 100%;
+    width: 60%;           /* Just for Demo */
+}
+
+.edu img, .exp img{
+	width: 100%;
+}
+
+.edu .text{
+	color: white;
+	/* width: 60%; */
+	margin-top: -20px;
+}
+
+.contact span{
+	display: inline-block;
+    vertical-align: top;     /* Vertically align the inline-block elements */
+    height:100%;
+    line-height: 100%;
+    width: 100%;           /* Just for Demo */
+	padding: 10px;
+}
+
+.pub-list > p {
+	color: #f4e4ba;
+}
+
+.pub-list > ul{
+	color: #bfbfbc;
+	font-size: 12px;
+	padding-left: 30px;
+}
+
+.pub-list span span{
+	font-weight: bold;
+	color: white;
+	text-decoration: underline;
+}
+
+.pub-list a{
+	font-weight: bold;
+	color: rgb(99, 175, 251);
+	text-decoration: underline;
+}
+
+p span {
+  color:#ebf3f4;
+  background-color: #55a6f6;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-left: 2px;
+}
+
+p span i {
+	color:#ebf3f4;
+	background-color: #55a6f6;
+}
+
+p.path span + span{
+  color:#9CEAF3;
+}
+
+.success {
+  color:#5AD786;
+}
+
+.error {
+  color:#F78F85;
+}
+
+p.response {
+  color:rgb(238, 238, 238);
+}
+
+input:focus {
+  border:none;
+  outline: none;
+  box-shadow: none;
+  background-color: unset;
+}
+
+.type {
+  display:flex;
+  align-items: center;
+  padding:8px 0;
+}
+
+.type2 {
+  display:flex;
+  align-items: center;
+  padding:8px 0;
+}
+
+.input-char {
+  color:#5AD786;
+  padding-right:8px;
+}
+
+.input-char.error {
+  color:#F78F85;
+}
+
+.tab {
+  margin-left: 40px;
+}
+
+table.auto {
+  width: auto;
+}
+
+.actions tr > td:first-child {
+  min-width: 50px;
+  vertical-align: top;
+}
+
+table.bordered, .bordered th, .bordered td {
+  border: 2px dashed #fff;
+}
+
+.collapsed {
+  border-collapse: collapse;
+}
+
+table, .padded td {
+  padding: 10px;
+}
+
+.output a, .output i {
+  color: #F5FC07;
+  cursor: pointer;
+}
+
+ul.dash {
+  list-style: none;
+  margin-left: 20px;
+  padding-left: 1em;
+}
+
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+
+div.output p { 
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.output table {
+  margin-top: 20px; 
+}
+
+div.output a, i {
+  color: #F5FC07;
+  cursor: pointer;
+}
+
+/* for mobile device */
+@media screen and (max-width: 500px) {
+	.nav a {
+    	font-size: 10px;
+		/* float: left; */
+		/* display: inline; */
+		/* width: 25%; */
+    	height: 30px;
+		overflow: scroll;
+	}
+
+	.menu h1 {
+		font-size: 12px;
+		width: 350px;
+		overflow: hidden;
+		overflow: scroll;
+		/* display: inline; */
+	}
+
+
+	.buttons-flex2 {
+		font-size:12px;
+	}
+
+	.intro, .edu, .contact, .pub-list, .exp{
+		overflow: scroll; 
+		width: 1000px;
+	}
+
+	.intro span{
+		display: inline-block;
+		width: 20%;        
+	}
+
+	.intro span+span{
+		display: inline-block;
+		width: 50%;       
+	}
+
+	.nav a .left-command {
+		display: none;
+	}
+
+	.ico {
+		padding-left: 6px;
+		padding-bottom: 4.2px;
+	}
+}
+
+@media (max-width:330px) {
+  .menu h1{
+    display:none;
+  }
+}
+
+@media print, screen and (max-width: 40em) {
+  .container{
+    height:700px;
+  }
+}
+
+@media (max-width:500px) {
+  .buttons-flex{
+    position: unset;
+    display:flex;
+    flex-direction: row;
+  }
+}
+
