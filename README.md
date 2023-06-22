@@ -26,5 +26,6 @@ ASCII art can be generated on an online tool, e.g., [patorjk](https://patorjk.co
 
 ## TODO
 The project is under-going
-- Add the animation of terminal style text printing
-- Add new tab for "Project"
+- add the animation of terminal-style text printing
+- add a new tab for "Project"
+- change the source code to React project
