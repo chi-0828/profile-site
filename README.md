@@ -28,4 +28,4 @@ ASCII art can be generated on an online tool, e.g., [patorjk](https://patorjk.co
 The project is under-going
 - add the animation of terminal-style text printing
 - add a new tab for "Project"
-- change the source code to React project
+- change the source code to React project (in branch "react_verion")
