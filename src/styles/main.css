@@ -58,7 +58,7 @@ body {
   display:flex;
   flex-direction: column;
   width:100%;
-  max-width:1150px;
+  width:1150px;
   height: 1060px; /* for large screen */
   overflow: hidden;
   border-radius: 6px;
@@ -122,7 +122,7 @@ div.title {
 	margin-bottom: -2px;
 }
 
-.nav a {
+.nav button {
 	/* display: inline-block; */
 	float: left;
 	color: black;
@@ -139,27 +139,27 @@ div.title {
   border-bottom-width: medium;
 }
 
-.nav a .left-command {
+.nav button .left-command {
 	display: inline-flex;
 	float:  right;
 }
   
 /* Add a background color on mouse-over */
-.nav a:hover {
+.nav button:hover {
 	background-color: #bdbdbd;
 }
   
 /* Style the current/active link */
-.nav a.active {
+.nav button.active {
 	background-color: #e0e0e0;
 	border: #e0e0e0;
 	border-style: solid;
 }
 
-.nav a span {
+.nav button span {
 	text-align: right;
 }
-  
+
 #app {
   /* display:flex; */
   /* flex-direction: column; */
