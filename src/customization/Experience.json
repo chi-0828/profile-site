@@ -1,0 +1,16 @@
+{
+    "companies" : [
+        {
+            "logo" : "./img/iislogo-removebg-preview.png",
+            "name" : "Institute of XXXXXX, OOOOOOO OOOO",
+            "position_time" : "Research Intern, Summer, 2022",
+            "discription" : "rocessing in/near memory system project, e.g., realizing genome sequencing on a processing-in-memory system"
+        },
+        {
+            "logo" : "./img/patere-removebg-preview.png",
+            "name" : "XXXX Co.",
+            "position_time" : "Software Engineering Intern, Aug. 2021 - Jun. 2022",
+            "discription" : "Computer vision and deep learning project, e.g., implementing an object detection application for patient assistance"
+        }
+    ]
+}

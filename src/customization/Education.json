@@ -1,0 +1,19 @@
+{
+    "schools" : [{
+        "logo" : "./img/schoollogo1.png",
+        "name" : "National Cheng Kung University (NCKU)",
+        "degree" : "PhD, Computer Science and Information Engineering",
+        "time" : "??? - ???"
+    },{
+        "logo" : "./img/schoollogo2.png",
+        "name" : "National Cheng Kung University (NCKU)",
+        "degree" : "MS, Computer Science and Information Engineering",
+        "time" : "Sept. 2022 - present"
+    },{
+        "logo" : "./img/schoollogo3.png",
+        "name" : "National Chung Cheng University (CCU)",
+        "degree" : "BS, Computer Science and Information Engineering",
+        "time" : "Sept. 2018 - jun. 2022"
+    }
+   ]
+}

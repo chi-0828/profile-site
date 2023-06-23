@@ -1,0 +1,19 @@
+{
+    "journal" : [{
+        "title" : "LongPhase: an ultra-fast chromosome-scale phasing algorithm for small and large variants",
+        "author" : "Jyun-Hong Lin, Liang-Chi Chen, Shu-Qi Yu, Yao-Ting Huang",
+        "organization" : "Bioinformatics, Volume 38, Issue 7, March 2022, Pages 1816-1822",
+        "link" : "https://doi.org/10.1093/bioinformatics/btac058"
+    }],
+    "conference" : [{
+        "title" : "Efficient Sanitization Design for LSM-based Key-Value Store over 3D MLC NAND Flash",
+        "author" : "Liang-Chi Chen, Shu-Qi Yu, Chien-Chung Ho, Wei-Chen Wang, Yung-Chun Li",
+        "organization" : "The 38th ACM/SIGAPP Symposium on Applied Computing (SAC), March 27-31, 2023",
+        "link" : "https://dl.acm.org/doi/10.1145/3555776.3577780"
+    },{
+        "title" : "Efficient Sanitization Design for LSM-based Key-Value Store over 3D MLC NAND Flash",
+        "author" : "Liang-Chi Chen, Shu-Qi Yu, Chien-Chung Ho, Wei-Chen Wang, Yung-Chun Li",
+        "organization" : "The 38th ACM/SIGAPP Symposium on Applied Computing (SAC), March 27-31, 2023",
+        "link" : "https://dl.acm.org/doi/10.1145/3555776.3577780"
+    }]
+}

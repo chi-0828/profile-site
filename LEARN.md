@@ -4,4 +4,5 @@ Tools:
 - [icon UNICODE] (https://www.toptal.com/designers/htmlarrows/symbols/)
 - html
 - css (vary with screen size)
-- java script (TODO)
+- javascript
+- React
