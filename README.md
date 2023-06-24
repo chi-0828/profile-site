@@ -1,6 +1,9 @@
 # profile-site
 [![GitHub repository](https://img.shields.io/badge/GitHub-chi--0828%2Fprofile--site-blue.svg)](https://github.com/chi-0828/profile-site)
+![GitHub top language](https://img.shields.io/github/languages/top/chi-0828/profile-site?color=blue&logo=Ionic&logoColor=white)
+![GitHub stars](https://img.shields.io/github/stars/chi-0828/profile-site?color=success&logo=github)
 [![MIT License](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](LICENSE)
+<br>
 [![npm version](https://img.shields.io/badge/npm-9.5.1-yellow)](https://docs.npmjs.com/)
 [![node version](https://img.shields.io/badge/node-18.16.1-yellow)](https://nodejs.org/en)
 <br><a href="https://www.producthunt.com/posts/profile-site?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-profile&#0045;site" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=401310&theme=light" alt="profile&#0045;site - profile&#0045;site&#0032;is&#0032;a&#0032;personal&#0032;website&#0032;template&#0032;built&#0032;by&#0032;React | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a><br>
