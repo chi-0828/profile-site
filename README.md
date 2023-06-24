@@ -53,13 +53,13 @@ example-1: customize `Experience.json`
             "logo" : "path related to src",
             "name" : "your company name",
             "position_time" : "your job title, when",
-            "discription" : "what you do"
+            "description" : "what you do"
         },
         {
             "logo" : "./img/patere-removebg-preview.png",
             "name" : "XXXX Co.",
             "position_time" : "Software Engineering Intern, Aug. 2021 - Jun. 2022",
-            "discription" : "Computer vision and deep learning project, e.g., implementing an object detection application for patient assistance"
+            "description" : "Computer vision and deep learning project, e.g., implementing an object detection application for patient assistance"
         }
     ]
 }
@@ -68,17 +68,17 @@ example-2: customize `Introduction.json`
 ``` json
 {
     "intro" : "write your portfolio here",
-    "github" : "your github",
-    "googlescholar" : "your googles cholar (or your gmail)",
-    "linkedin" : "your linkedin",
+    "github" : "your GitHub",
+    "googlescholar" : "your google scholar (or your Gmail)",
+    "linkedin" : "your LinkedIn",
     "orcid" : "your orcid (or any other social account, e.g., FB, IG)"
 }
 ```
-if you don't have npm on your PC, I recommend you download it or use the HTML version
+if you don't have npm on your PC, I recommend you download it or use the HTML version (the HTML version is no longer maintained)
 ``` shell
 git clone --branch html https://github.com/chi-0828/profile-site.git
 ```
-if you want to depoly the site on your GitHub page
+if you want to deploy the site on your GitHub page
 ``` shell
 git clone https://github.com/chi-0828/profile-site.git
 cd profile-site
@@ -98,7 +98,7 @@ configure `package.json`
 ``` shell
 npm run deploy
 ```
-There is a new branch `gh-pages` on your repository, you can host the branch to be the GitHub page in `setting`
+There is a new branch `gh-pages` on your repository; you can host the branch to be the GitHub page in `setting`
 
 ## TODO
 The project is under-going
