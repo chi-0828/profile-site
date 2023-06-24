@@ -4,6 +4,7 @@
 [![npm version](https://img.shields.io/badge/npm-9.5.1-yellow)](https://docs.npmjs.com/)
 [![node version](https://img.shields.io/badge/node-18.16.1-yellow)](https://nodejs.org/en)
 profile-site is a template of MacOS terminal style personal profile website
+
 - star this project if you enjoy this template
 
 ## [Try it out](#usage)
@@ -33,7 +34,7 @@ cd profile-site
 npm install
 npm run start
 ```
-customize your own website
+customize your website
 ``` shell
 cd src/customization
 # change the introduction in *.json to your own information
@@ -61,10 +62,10 @@ example-1: customize Experience.json
 example-2: customize Introduction.json
 ``` json
 {
-    "intro" : "wrtie your portfolio here"
+    "intro" : "write your portfolio here"
 }
 ```
-if you don't have npm on your PC, I recommend you to download it, or use the HTML version
+if you don't have npm on your PC, I recommend you download it or use the HTML version
 ``` shell
 git clone --branch html https://github.com/chi-0828/profile-site.git
 ```
