@@ -34,13 +34,14 @@ cd profile-site
 npm install
 npm run start
 ```
-customize your website
+customize your website <br>
+`src/img/me5.png` is your personal image, `src/customization/*.json` is your personal information
 ``` shell
 cd src/customization
 # change the introduction in *.json to your own information
 # change the images in img/* to your own photo and your school/company logo
 ```
-example-1: customize Experience.json
+example-1: customize `Experience.json`
 ``` json
 {
     "companies" : [
@@ -59,16 +60,40 @@ example-1: customize Experience.json
     ]
 }
 ```
-example-2: customize Introduction.json
+example-2: customize `Introduction.json`
 ``` json
 {
-    "intro" : "write your portfolio here"
+    "intro" : "write your portfolio here",
+    "github" : "your github",
+    "googlescholar" : "your googles cholar (or your gmail)",
+    "linkedin" : "your linkedin",
+    "orcid" : "your orcid (or any other social account, e.g., FB, IG)"
 }
 ```
 if you don't have npm on your PC, I recommend you download it or use the HTML version
 ``` shell
 git clone --branch html https://github.com/chi-0828/profile-site.git
 ```
+if you want to depoly the site on your GitHub page
+``` shell
+git clone https://github.com/chi-0828/profile-site.git
+cd profile-site
+vim package.json
+```
+configure `package.json`
+``` json
+{
+  "name": "profile-site", // name
+  "version": "0.1.0",
+  "homepage": "https://your-account.github.io/profile-site", // change "your-account" to your GitHub account and "profile-site" to repository
+  "private": true,
+  ...
+}
+```
+``` shell
+npm run deploy
+```
+There is a new branch `gh-pages` on your repository, you can host the branch to be the GitHub page in `setting`
 
 ## TODO
 The project is under-going
