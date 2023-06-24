@@ -1,7 +1,8 @@
 # profile-site
 [![GitHub repository](https://img.shields.io/badge/GitHub-chi--0828%2Fprofile--site-blue.svg)](https://github.com/chi-0828/profile-site)
 [![MIT License](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](LICENSE)
-[![npm version](https://img.shields.io/badge/npm-9.5.1-yellow)]()
+[![npm version](https://img.shields.io/badge/npm-9.5.1-yellow)](https://docs.npmjs.com/)
+[![node version](https://img.shields.io/badge/node-18.16.1-yellow)](https://nodejs.org/en)
 profile-site is a template of MacOS terminal style personal profile website
 - star this project if you enjoy this template
 

@@ -1,10 +1,10 @@
 import React from "react";
-import expraw from "./customization/Experience.json";
+import Expraw from "./customization/Experience.json";
 import "./styles/main.css";
 
 export function Exp() {
     const result = [];
-    expraw.companies.map((company) => {
+    Expraw.companies.map((company) => {
         result.push(
             <div class="edu">
                 <span id="logo-block">

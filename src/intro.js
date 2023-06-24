@@ -1,20 +1,19 @@
 import React from "react";
 import head from "./img/me5.png";
 import "./styles/main.css";
-import introraw from './customization/Introduction.json'
-import eduraw from './customization/Education.json'
+import Introraw from './customization/Introduction.json'
+import Eduraw from './customization/Education.json'
 
 
 export function Read_Intro() {
     return (
         <span class="text blcok-long">
-            {introraw.intro}
+            {Introraw.intro}
             <p>
-                {/* <!-- replace to tour social accounts --> */}
-                <a target="_blank" href="https://github.com/chi-0828" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/liang-chi-chen-882a531b9" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                <a target="_blank" href="https://scholar.google.com.tw/citations?user=SoyMWUsAAAAJ" rel="noreferrer"><i class="ai ai-google-scholar"></i></a>
-                <a target="_blank" href="https://orcid.org/0000-0003-2579-4305" rel="noreferrer"><i class="fa-brands fa-orcid"></i></a>
+                <a target="_blank" href={Introraw.github} rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href={Introraw.linkedin} rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" href={Introraw.googlescholar} rel="noreferrer"><i class="ai ai-google-scholar"></i></a>
+                <a target="_blank" href={Introraw.orcid} rel="noreferrer"><i class="fa-brands fa-orcid"></i></a>
             </p>
         </span>
     );
@@ -33,7 +32,7 @@ export function Intro() {
 
 export function Edu() {
     const result = [];
-    eduraw.schools.map((school) => {
+    Eduraw.schools.map((school) => {
         result.push(
             <div class="edu">
                 <span id="logo-block">

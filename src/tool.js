@@ -1,4 +1,4 @@
-import contactraw from "./customization/Contact.json";
+import Contactraw from "./customization/Contact.json";
 
 export function Path(props) {
     return (
@@ -34,8 +34,8 @@ export function Contact() {
     return (
         <div class="contact">
             <span class="text">
-                <p><i class="fa-solid fa-envelope"></i> Email: {contactraw.email}</p>
-                <p><i class="fa-solid fa-phone"></i> Phone: {contactraw.phone}</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: {Contactraw.email}</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: {Contactraw.phone}</p>
             </span>
         </div>
     );

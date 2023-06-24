@@ -1,11 +1,11 @@
 import React from "react";
-import pubraw from "./customization/Publication.json";
+import Pubraw from "./customization/Publication.json";
 import "./styles/main.css";
 
 
 export function Pub() {
     const journal = [];
-    pubraw.journal.map((paper) => {
+    Pubraw.journal.map((paper) => {
         journal.push(
             <li><span>
                 <b>{paper.title}</b><br/>
@@ -16,7 +16,7 @@ export function Pub() {
         );
     });
     const conference = [];
-    pubraw.conference.map((paper) => {
+    Pubraw.conference.map((paper) => {
         conference.push(
             <li><span>
                 <b>{paper.title}</b><br/>
