@@ -3,6 +3,7 @@ import {Intro, Edu} from "./intro";
 import Pub from "./pub";
 import Exp from "./exp";
 import Awd from "./award";
+import { ASCII } from "./tool";
 import {Path, Code, Contact} from "./tool";
 import "./styles/main.css";
 
@@ -11,6 +12,7 @@ const paths = ['~\Home', '~\Publication', '~\Experience', '~\Award', '~\Project'
 function Intro_content(props) {
 	return (
 		<div id='app'> 
+			<ASCII />
 			<Path path={paths[props.index-1]}/>
 			<Code command='About Me'/>
 			<Intro />
@@ -27,6 +29,7 @@ function Intro_content(props) {
 function Pub_content(props) {
 	return (
 		<div id='app'> 
+			<ASCII />
 			<Path path={paths[props.index-1]}/>
 			<Code command='Publication list'/>
 			<Pub />
@@ -40,6 +43,7 @@ function Pub_content(props) {
 function Exp_content(props) {
 	return (
 		<div id='app'> 
+			<ASCII />
 			<Path path={paths[props.index-1]}/>
 			<Code command='Experience'/>
 			<Exp />
@@ -53,6 +57,7 @@ function Exp_content(props) {
 function Awd_content(props) {
 	return (
 		<div id='app'> 
+			<ASCII />
 			<Path path={paths[props.index-1]}/>
 			<Code command='Honors'/>
 			<Awd />

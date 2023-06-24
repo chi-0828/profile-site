@@ -19,7 +19,7 @@ function Menu() {
                             }\
                         "}</style>
                     </i> 
-                    &nbsp;user@your-name-Home-Page:~/Home
+                    &nbsp;user@your-name-Home-Page
                 </h1>
             </div>
             <div class="buttons-flex2">

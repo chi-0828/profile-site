@@ -304,10 +304,10 @@ div.bottom-8 {
 
 .contact span{
 	display: inline-block;
-    vertical-align: top;     /* Vertically align the inline-block elements */
-    height:100%;
-    line-height: 100%;
-    width: 100%;           /* Just for Demo */
+  vertical-align: top;     /* Vertically align the inline-block elements */
+  height:100%;
+  line-height: 100%;
+  width: 100%;           /* Just for Demo */
 	padding: 10px;
 }
 
@@ -317,14 +317,13 @@ div.bottom-8 {
 
 .pub-list > ul{
 	color: #bfbfbc;
-	font-size: 12px;
+	font-size: 12.5px;
 	padding-left: 30px;
 }
 
-.pub-list span span{
+.pub-list span{
 	font-weight: bold;
-	color: white;
-	text-decoration: underline;
+	color: rgb(238, 253, 223);
 }
 
 .pub-list a{
@@ -445,6 +444,16 @@ div.output table {
 div.output a, i {
   color: #95b9db;
   cursor: pointer;
+}
+
+.fa-github {
+  color: white;
+}
+.fa-linkedin {
+  color: rgb(36, 178, 249);
+}
+.fa-orcid {
+  color: rgb(179, 250, 92);
 }
 
 /* for mobile device */

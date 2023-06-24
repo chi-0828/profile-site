@@ -3,7 +3,7 @@ import Contactraw from "./customization/Contact.json";
 export function Path(props) {
     return (
 		<p id="path"> 
-			&nbsp;<i class="fa-brands fa-apple ico">&nbsp;&nbsp;</i>
+			&nbsp;<i class="fa-brands fa-apple ico">&nbsp;&nbsp;&nbsp;&nbsp;</i>
 			<span>&nbsp;&nbsp;<i class="fa fa-folder-open">&nbsp;</i>{props.path}&nbsp;&nbsp;</span>
 		</p>
     );
@@ -19,16 +19,25 @@ export function Code(props) {
 
 
 
-// export async function Notes(e) {
-//     const response = await fetch(e.path)
-//     if (!response.ok) {
-//         throw new Error('Data coud not be fetched!')
-//     } else {
-//         const text = await response.text();
-//         //console.log(text);
-//         return text;
-//     }
-// }
+export function ASCII() {
+    return (
+        <pre>
+            <h2>
+                <code>
+{`
+ _______  ______    _______  _______  ___  ___      _______       _______  ___  _______  _______ 
+|       ||    _ |  |       ||       ||   ||   |    |       |     |       ||   ||       ||       |
+|    _  ||   | ||  |   _   ||    ___||   ||   |    |    ___|____ |  _____||   ||_     _||    ___|
+|   |_| ||   |_||_ |  | |  ||   |___ |   ||   |    |   |___|____|| |_____ |   |  |   |  |   |___ 
+|    ___||    __  ||  |_|  ||    ___||   ||   |___ |    ___|     |_____  ||   |  |   |  |    ___|
+|   |    |   |  | ||       ||   |    |   ||       ||   |___       _____| ||   |  |   |  |   |___ 
+|___|    |___|  |_||_______||___|    |___||_______||_______|     |_______||___|  |___|  |_______|
+                                                                                                                                                                                   
+`}</code>                 
+            </h2>
+        </pre>
+    );
+}
 
 export function Contact() {
     return (
