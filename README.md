@@ -83,11 +83,12 @@ vim package.json
 configure `package.json`
 ``` json
 {
-  "name": "profile-site", // name
-  "version": "0.1.0",
-  "homepage": "https://your-account.github.io/profile-site", // change "your-account" to your GitHub account and "profile-site" to repository
-  "private": true,
-  ...
+    "//": "name is your project name",
+    "name": "profile-site",
+    "version": "0.1.0",
+    "//": "change 'your-account' to your GitHub account and 'profile-site' to repository",
+    "homepage": "https://your-account.github.io/profile-site",
+    "..." : "..."
 }
 ```
 ``` shell
