@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.7d8592f7.css",
+    "main.js": "/react-gh-pages/static/js/main.ac4d7a5b.js",
+    "static/js/787.0f8c18f6.chunk.js": "/react-gh-pages/static/js/787.0f8c18f6.chunk.js",
+    "static/media/fa-solid-900.svg": "/react-gh-pages/static/media/fa-solid-900.e01ea526204590d06558.svg",
+    "static/media/fa-brands-400.svg": "/react-gh-pages/static/media/fa-brands-400.65ed7d005846ac8f8096.svg",
+    "static/media/terminal.png": "/react-gh-pages/static/media/terminal.46c0258477f1ef1679ab.png",
+    "static/media/fa-solid-900.eot": "/react-gh-pages/static/media/fa-solid-900.1b81e504c3d6fcfbdf46.eot",
+    "static/media/fa-solid-900.ttf": "/react-gh-pages/static/media/fa-solid-900.2c16a818018a030c0b87.ttf",
+    "static/media/demo.png": "/react-gh-pages/static/media/demo.bdd6363cb3e4dd0d2df2.png",
+    "static/media/fa-regular-400.svg": "/react-gh-pages/static/media/fa-regular-400.eae91b15e71cf13b2f8c.svg",
+    "static/media/fa-brands-400.eot": "/react-gh-pages/static/media/fa-brands-400.140e875e1e58453221ad.eot",
+    "static/media/fa-brands-400.ttf": "/react-gh-pages/static/media/fa-brands-400.f318edaf81ff2d1dc049.ttf",
+    "static/media/demo2.png": "/react-gh-pages/static/media/demo2.ee9a35d9f45426ea3b4d.png",
+    "static/media/fa-solid-900.woff": "/react-gh-pages/static/media/fa-solid-900.f89ad185d4d491dd5ffe.woff",
+    "static/media/fa-brands-400.woff": "/react-gh-pages/static/media/fa-brands-400.64295e33efa263357733.woff",
+    "static/media/fa-solid-900.woff2": "/react-gh-pages/static/media/fa-solid-900.792bbe12870f9e1707aa.woff2",
+    "static/media/fa-brands-400.woff2": "/react-gh-pages/static/media/fa-brands-400.6bc193d6b167d7175b0f.woff2",
+    "static/media/background.jpg": "/react-gh-pages/static/media/background.dba64f288e1487018474.jpg",
+    "static/media/fa-regular-400.eot": "/react-gh-pages/static/media/fa-regular-400.45bbc08ee25c0f5cd0fb.eot",
+    "static/media/fa-regular-400.ttf": "/react-gh-pages/static/media/fa-regular-400.07c1f6dce8b2bfcf5111.ttf",
+    "static/media/fa-regular-400.woff": "/react-gh-pages/static/media/fa-regular-400.5a071ce2da7c9811d1d2.woff",
+    "static/media/fa-regular-400.woff2": "/react-gh-pages/static/media/fa-regular-400.75761b3a9c4443721310.woff2",
+    "index.html": "/react-gh-pages/index.html",
+    "main.7d8592f7.css.map": "/react-gh-pages/static/css/main.7d8592f7.css.map",
+    "main.ac4d7a5b.js.map": "/react-gh-pages/static/js/main.ac4d7a5b.js.map",
+    "787.0f8c18f6.chunk.js.map": "/react-gh-pages/static/js/787.0f8c18f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d8592f7.css",
+    "static/js/main.ac4d7a5b.js"
+  ]
+}
