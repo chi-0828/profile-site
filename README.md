@@ -100,4 +100,4 @@ There is a new branch `gh-pages` on your repository, you can host the branch to 
 The project is under-going
 - add the animation of terminal-style text printing
 - add a new tab for "Project"
-- change the source code to React project (done)
+- ~~change the source code to React project (done)~~
