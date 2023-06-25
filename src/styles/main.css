@@ -458,7 +458,7 @@ div.output a, i {
 
 /* for mobile device */
 @media screen and (max-width: 500px) {
-	.nav a {
+	.nav button {
     	font-size: 10px;
 		/* float: left; */
 		/* display: inline; */

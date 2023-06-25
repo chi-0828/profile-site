@@ -66,7 +66,7 @@ class Container extends Component {
                     </span>
                 </button>
                 <button className={this.state.Index == 4 ? 'active': null} onClick={() => this.goPage(4)}>
-                    <span>~/Honor-&-Award</span>
+                    <span>~/Award</span>
                     <span class="left-command">
                         &#8984;4
                     </span>
