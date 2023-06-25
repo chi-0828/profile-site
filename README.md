@@ -98,7 +98,7 @@ configure `package.json`
 ``` shell
 npm run deploy
 ```
-There will be a new branch `gh-pages` on your repository; you can host the branch to be the GitHub page in `setting`
+There will be a new branch `gh-pages` on your repository; you can host the branch to be the GitHub page in `setting` <br>
 [see the tutorial](https://github.com/gitname/react-gh-pages)
 
 ## TODO
