@@ -2,6 +2,8 @@
 [![GitHub repository](https://img.shields.io/badge/GitHub-chi--0828%2Fprofile--site-blue.svg)](https://github.com/chi-0828/profile-site)
 ![GitHub top language](https://img.shields.io/github/languages/top/chi-0828/profile-site?color=blue&logo=Ionic&logoColor=white)
 ![GitHub stars](https://img.shields.io/github/stars/chi-0828/profile-site?color=success&logo=github)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/chi-0828/profile-site)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/chi-0828/profile-site)
 [![MIT License](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](LICENSE)
 <br>
 [![npm version](https://img.shields.io/badge/npm-9.5.1-yellow)](https://docs.npmjs.com/)
