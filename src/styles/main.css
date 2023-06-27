@@ -58,7 +58,7 @@ body {
   display:flex;
   flex-direction: column;
   width:100%;
-  width:1150px;
+  max-width:1150px;
   height: 1060px; /* for large screen */
   overflow: hidden;
   border-radius: 6px;
@@ -129,7 +129,7 @@ div.title {
 	text-decoration: none;
 	font-size: 13px;
 	padding: 3.5px;
-	width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	width: 20%; /* Four equal-width links. If you have two links, use 50%; 33.33% for three links, etc.. */
 	text-align: center;
 	background-color: #c7c7c7;
 	font-weight: 100;
@@ -209,7 +209,7 @@ div.bottom-8 {
 	color: #f4feaa;
 }
 
-.intro, .edu, .contact, .pub-list, .exp{
+.intro, .edu, .contact, .pro, .pub-list, .exp{
 	padding-left: 80px;
 	padding-bottom: 40px;
 }
@@ -217,10 +217,10 @@ div.bottom-8 {
 
 .intro span{
 	display: inline-block;
-    vertical-align: top;     /* Vertically align the inline-block elements */
-    height:100%;
-    line-height: 100%;
-    width: 20%;           /* Just for Demo */
+  vertical-align: top;     /* Vertically align the inline-block elements */
+  height:100%;
+  line-height: 100%;
+  width: 20%;           /* Just for Demo */
 	padding: 10px;
 }
 
@@ -445,6 +445,20 @@ div.output a, i {
   color: #95b9db;
   cursor: pointer;
 }
+
+.probox {
+  border: #95b9db;
+  border-style: dashed;
+  border-width: thin;
+  width: 50%;
+  height: 150px;
+}
+.probox img{
+  max-width: 30%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
 
 .fa-github {
   color: white;

@@ -53,22 +53,29 @@ class Container extends Component {
                     </span>
                 </button>
                 <button className={this.state.Index == 2 ? 'active': null} onClick={() => this.goPage(2)}>
-                    <span>~/Publication</span>
+                    <span>~/Project</span>
                     {/* if your are an engineer, just replcae to "Project"  */}
                     <span class="left-command">
                         &#8984;2
                     </span>
                 </button> 
                 <button className={this.state.Index == 3 ? 'active': null} onClick={() => this.goPage(3)}>
-                    <span>~/Experience</span>
+                    <span>~/Publication</span>
+                    {/* if your are an engineer, just replcae to "Project"  */}
                     <span class="left-command">
                         &#8984;3
                     </span>
-                </button>
+                </button> 
                 <button className={this.state.Index == 4 ? 'active': null} onClick={() => this.goPage(4)}>
-                    <span>~/Award</span>
+                    <span>~/Experience</span>
                     <span class="left-command">
                         &#8984;4
+                    </span>
+                </button>
+                <button className={this.state.Index == 5 ? 'active': null} onClick={() => this.goPage(5)}>
+                    <span>~/Award</span>
+                    <span class="left-command">
+                        &#8984;5
                     </span>
                 </button>
             </div>

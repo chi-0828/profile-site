@@ -11,7 +11,7 @@ export function Pub() {
                 <b>{paper.title}</b><br/>
                 {paper.author} <br/>
                 {paper.organization}  <br/>
-                <a href={paper.link} target="_blank">[Paper]</a>
+                <a href={paper.link} target="_blank"  rel="noreferrer">[Paper]</a>
             </span></li>
         );
     });
@@ -22,7 +22,7 @@ export function Pub() {
                 <b>{paper.title}</b><br/>
                 {paper.author} <br/>
                 {paper.organization}  <br/>
-                <a href={paper.link} target="_blank">[Paper]</a>
+                <a href={paper.link} target="_blank"  rel="noreferrer">[Paper]</a>
             </span></li>
         );
     });

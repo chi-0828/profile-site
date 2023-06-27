@@ -39,6 +39,16 @@ npm install
 npm run start
 ```
 customize your website <br>
+modify the title of `public/index.html`, change `User` to your name
+``` html
+<head>
+    <meta charset="UTF-8">
+    <!-- some codes -->
+    <title>User</title>
+    <!-- Put your name here -->
+    <!-- some codes -->
+</head>
+```
 `src/img/me5.png` is your personal image, `src/customization/*.json` is your personal information
 ``` shell
 cd src/customization
