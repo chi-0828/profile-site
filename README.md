@@ -11,8 +11,8 @@
 <br>
 profile-site is a template of MacOS terminal-style personal profile website
 
-- star this project if you enjoy this template
-- 
+- star :star: this project if you enjoy this template
+
 ## [Update log](#Update)
 ## [Try it out](#usage)
 
