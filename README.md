@@ -115,7 +115,7 @@ There will be a new branch `gh-pages` on your repository; you can host the branc
 # Update
 ### 2323/06/28 | Add new tab "Project
 customize `Project.json` to show your projects
-![image](src/img/demo.png)
+![image](src/img/demo3.png)
 
 ## TODO
 The project is under-going
