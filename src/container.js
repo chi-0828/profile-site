@@ -33,56 +33,61 @@ class Container extends Component {
     constructor() {
         super();
         this.state = {Index: 1};
+        let value = localStorage.getItem('index');
+        this.state.Index = (value == null) ? 1 : value;
       }
  
     goPage(index) {
         this.setState((state) => {
+            localStorage.setItem('index', index);
             return {Index: index}
         });
     }
 
-  render() {
-    return (
-        <div class="container">
-            <Menu />
-            <div class="nav">
-                <button className={this.state.Index == 1 ? 'active': null}  onClick={() => this.goPage(1)}>
-                    <span>~/Home</span>
-                    <span class="left-command">
-                        &#8984;1
-                    </span>
-                </button>
-                <button className={this.state.Index == 2 ? 'active': null} onClick={() => this.goPage(2)}>
-                    <span>~/Project</span>
-                    {/* if your are an engineer, just replcae to "Project"  */}
-                    <span class="left-command">
-                        &#8984;2
-                    </span>
-                </button> 
-                <button className={this.state.Index == 3 ? 'active': null} onClick={() => this.goPage(3)}>
-                    <span>~/Publication</span>
-                    {/* if your are an engineer, just replcae to "Project"  */}
-                    <span class="left-command">
-                        &#8984;3
-                    </span>
-                </button> 
-                <button className={this.state.Index == 4 ? 'active': null} onClick={() => this.goPage(4)}>
-                    <span>~/Experience</span>
-                    <span class="left-command">
-                        &#8984;4
-                    </span>
-                </button>
-                <button className={this.state.Index == 5 ? 'active': null} onClick={() => this.goPage(5)}>
-                    <span>~/Award</span>
-                    <span class="left-command">
-                        &#8984;5
-                    </span>
-                </button>
+
+    render() {
+        return (
+            <div class="container">
+                <Menu />
+                <div class="nav">
+                    <button className={Number(this.state.Index) === Number(1) ? 'active': null}  onClick={() => this.goPage(1)}>
+                        <span>~/Home</span>
+                        <span class="left-command">
+                            &#8984;1
+                        </span>
+                    </button>
+                    <button className={Number(this.state.Index) === Number(2) ? 'active': null} onClick={() => this.goPage(2)}>
+                        <span>~/Project</span>
+                        {/* if your are an engineer, just replcae to "Project"  */}
+                        <span class="left-command">
+                            &#8984;2
+                        </span>
+                    </button> 
+                    <button className={Number(this.state.Index) === Number(3) ? 'active': null} onClick={() => this.goPage(3)}>
+                        <span>~/Publication</span>
+                        {/* if your are an engineer, just replcae to "Project"  */}
+                        <span class="left-command">
+                            &#8984;3
+                        </span>
+                    </button> 
+                    <button className={Number(this.state.Index) === Number(4) ? 'active': null} onClick={() => this.goPage(4)}>
+                        <span>~/Experience</span>
+                        <span class="left-command">
+                            &#8984;4
+                        </span>
+                    </button>
+                    <button className={Number(this.state.Index) === Number(5) ? 'active': null} onClick={() => this.goPage(5)}>
+                        <span>~/Award</span>
+                        <span class="left-command">
+                            &#8984;5
+                        </span>
+                    </button>
+                </div>
+                <App index={this.state.Index}/>
             </div>
-            <App index={this.state.Index}/>
-        </div>
-    );
-  }
+        );
+    }
 }
+
 
 export default Container;

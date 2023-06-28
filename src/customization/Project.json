@@ -1,0 +1,18 @@
+{
+    "projects" : [
+        {
+            "project_img" : "./img/demo.png",
+            "project_name" : "profile-site",
+            "project_about" : "profile-site is a personal website template, which is made in macos terminal style; the project is built by React",
+            "project_tool" : "React, Node, CSS, HTML",
+            "project_link" : "https://github.com/chi-0828/profile-site"
+        },
+        {
+            "project_img" : "./img/project.png",
+            "project_name" : "the project name",
+            "project_about" : "the discription of the project",
+            "project_tool" : "all tools used in the project",
+            "project_link" : "link to the project, GitHub or others"
+        }
+    ]
+}

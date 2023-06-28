@@ -2,8 +2,8 @@ import Contactraw from "./customization/Contact.json";
 
 export function Path(props) {
     return (
-		<p id="path"> 
-			&nbsp;<i class="fa-brands fa-apple ico">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+		<p class="path"> 
+			<span>&nbsp;<i class="fa-brands fa-apple">&nbsp;&nbsp;</i></span>
 			<span>&nbsp;&nbsp;<i class="fa fa-folder-open">&nbsp;</i>{props.path}&nbsp;&nbsp;</span>
 		</p>
     );
