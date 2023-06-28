@@ -12,7 +12,8 @@
 profile-site is a template of MacOS terminal-style personal profile website
 
 - star this project if you enjoy this template
-
+- 
+## [Update log](#Update)
 ## [Try it out](#usage)
 
 ## Demo 
@@ -26,8 +27,6 @@ profile-site is a template of MacOS terminal-style personal profile website
 ASCII art can be generated on an online tool, e.g., [patorjk](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 ![image](src/img/demo.png)
 ![image](src/img/demo2.png)
-#### This is the real Macos terminal (iTerm)
-![image](src/img/terminal.png)
 
 ## Usage
 download the source
@@ -113,8 +112,13 @@ npm run deploy
 There will be a new branch `gh-pages` on your repository; you can host the branch to be the GitHub page in `setting` <br>
 [see the tutorial](https://github.com/gitname/react-gh-pages)
 
+# Update
+### 2323/06/28 | Add new tab "Project
+customize `Project.json` to show your projects
+![image](src/img/demo.png)
+
 ## TODO
 The project is under-going
 - add the animation of terminal-style text printing
-- add a new tab for "Project"
+- ~~add a new tab for "Project"~~
 - ~~change the source code to React project (done)~~
