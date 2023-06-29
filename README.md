@@ -1,4 +1,5 @@
 # profile-site
+![image](src/img/showcase.png)
 [![GitHub repository](https://img.shields.io/badge/GitHub-chi--0828%2Fprofile--site-blue.svg)](https://github.com/chi-0828/profile-site)
 ![GitHub top language](https://img.shields.io/github/languages/top/chi-0828/profile-site?color=blue&logo=Ionic&logoColor=white)
 ![GitHub stars](https://img.shields.io/github/stars/chi-0828/profile-site?color=success&logo=github)
