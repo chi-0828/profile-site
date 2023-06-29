@@ -216,12 +216,12 @@ div.bottom-8 {
 }
 
 .intro span+span{
-	display: inline-block;
-    vertical-align: top;     /* Vertically align the inline-block elements */
-	padding-top: 30px;
-    height:100%;
-    line-height: 100%;
-    width: 60%;           /* Just for Demo */
+  display: inline-block;
+  vertical-align: top;     /* Vertically align the inline-block elements */
+  padding-top: 30px;
+  height:100%;
+  line-height: 100%;
+  width: 60%;           /* Just for Demo */
 }
 
 .intro p i{
@@ -241,21 +241,21 @@ div.bottom-8 {
 }
 
 .edu span {
-	display: inline-block;
-    vertical-align: top;     
-    height:100%;
-    line-height: 100%;
-    width: 75px;          
-	padding: 10px;
+  display: inline-block;
+  vertical-align: top;     
+  height:100%;
+  line-height: 100%;
+  width: 75px;          
+  padding: 10px;
 }
 
 .exp span {
-	display: inline-block;   
-    height:100%;
-    line-height: 100%;
-    width: 105px;          
-	padding: 10px;
-	padding-top: 20px;
+  display: inline-block;   
+  height:100%;
+  line-height: 100%;
+  width: 105px;          
+  padding: 10px;
+  padding-top: 20px;
 }
 
 .edu span .school, .exp span .school{
@@ -271,12 +271,12 @@ div.bottom-8 {
 }
 
 .edu span+span, .exp span+span{
-	display: inline-block;
-    vertical-align: top;     /* Vertically align the inline-block elements */
-	padding-top: 20px;
-    height:100%;
-    line-height: 100%;
-    width: 60%;           /* Just for Demo */
+  display: inline-block;
+  vertical-align: top;     
+  padding-top: 20px;
+  height:100%;
+  line-height: 100%;
+  width: 60%;           
 }
 
 .edu img, .exp img{
@@ -289,28 +289,19 @@ div.bottom-8 {
 	margin-top: -20px;
 }
 
-.contact span{
-	display: inline-block;
-  vertical-align: top;     /* Vertically align the inline-block elements */
-  height:100%;
-  line-height: 100%;
-  width: 100%;           /* Just for Demo */
-	padding: 10px;
-}
-
 .pub-list > p {
 	color: #f4e4ba;
 }
 
 .pub-list > ul{
 	color: #bfbfbc;
-	font-size: 12.5px;
 	padding-left: 30px;
 }
 
 .pub-list span{
 	font-weight: bold;
 	color: rgb(238, 253, 223);
+  font-size: 13px;
 }
 
 .pub-list a{
@@ -503,20 +494,22 @@ div.output a, i {
 
 /* for mobile device */
 @media screen and (max-width: 500px) {
+  pre h2{
+    font-size: 7px;
+  }
+  div.title {
+    flex:1;
+    text-align:center;
+  }
+  
 	.nav button {
-    	font-size: 10px;
-		/* float: left; */
-		/* display: inline; */
-		/* width: 25%; */
-    	height: 30px;
+    font-size: 8px;
+    height: 30px;
 		overflow: scroll;
 	}
 
 	.menu h1 {
-		font-size: 12px;
-		width: 350px;
-		overflow: hidden;
-		overflow: scroll;
+		font-size: 11px;
 		/* display: inline; */
 	}
 
@@ -531,23 +524,104 @@ div.output a, i {
 	}
 
 	.intro span{
-		display: inline-block;
-		width: 20%;        
+		display: block;
+		width: 20%;       
+    font-size:13px; 
 	}
 
 	.intro span+span{
-		display: inline-block;
-		width: 50%;       
+		display: block;
+		width: 30%;       
 	}
 
 	.nav a .left-command {
 		display: none;
 	}
 
-	.ico {
-		padding-left: 6px;
-		padding-bottom: 4.2px;
-	}
+  .edu span {
+    display: inline-block;    
+    height:100%;
+    line-height: 100%;
+    width: 75px;          
+    padding: 10px;
+  }
+
+  .exp span {
+    display: inline-block;    
+    height:100%;
+    line-height: 100%;
+    width: 75px;          
+    padding: 10px;
+  }
+
+  .edu span+span, .exp span+span{
+    display: inline-block;  
+    padding-top: 20px;
+    height:100%;
+    line-height: 100%;
+    width: 25%;           
+  }
+
+  .contact  p{
+    font-size: 9px;
+  }
+
+  .probox {
+    width: 180px;
+    height: 300px;
+  }
+  .probox img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+  }
+  .probox .pro-content {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: 3px;
+  }
+  .probox .pro-content .pro-title{
+    height: 20%;
+    color: #efe7c5;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .probox .pro-content .pro-about{
+    margin-top: 0px;
+    color: #f7f6f0;
+    font-size: 10px;
+    height: 60%;
+  }
+  .probox .pro-content .pro-bottom{
+    width: 100%;
+    height: 20%;
+  }
+  .probox .pro-content .pro-bottom .pro-tool{
+    display: inline-block;
+    font-size: 8px;
+    width: 88%;
+    color: wheat;
+  
+  }
+  .probox .pro-content .pro-bottom .pro-link{
+    display: inline-block;
+    font-size: 15px;
+    width: 5%;
+    text-align: right;
+  
+  }
+
+  
+  .pub-list p{
+    font-size: 9px;
+  }
+  .pub-list span{
+    font-weight: bold;
+    color: rgb(238, 253, 223);
+    font-size: 7px;
+  }
 }
 
 @media (max-width:330px) {

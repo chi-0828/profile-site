@@ -42,10 +42,8 @@ export function ASCII() {
 export function Contact() {
     return (
         <div class="contact">
-            <span class="text">
-                <p><i class="fa-solid fa-envelope"></i> Email: {Contactraw.email}</p>
-                <p><i class="fa-solid fa-phone"></i> Phone: {Contactraw.phone}</p>
-            </span>
+            <p><i class="fa-solid fa-envelope"></i> Email: {Contactraw.email}</p>
+            <p><i class="fa-solid fa-phone"></i> Phone: {Contactraw.phone}</p>
         </div>
     );
 }
