@@ -14,7 +14,7 @@ profile-site is a template of MacOS terminal-style personal profile website
 
 - star :star: this project if you enjoy this template
 
-## [Update log](#Update)
+## [Update log](#update)
 ## [Try it out](#usage)
 
 ## Demo 
