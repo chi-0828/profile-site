@@ -20,8 +20,6 @@ profile-site is a template of MacOS terminal-style personal profile website
 ## Demo 
 > #### Demo website link
 > [see the demo website](https://chi-0828.github.io/profile-site/)
-> #### My personal website link
-> [see the website with real usage](https://lcchen.me)
 
 ## Demo screenshot
 #### Some demo images
